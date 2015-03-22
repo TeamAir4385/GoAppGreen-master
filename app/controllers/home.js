@@ -27,7 +27,7 @@ $.cobButton.addEventListener('click', function(e)
 //not functional yet
 $.calendarButton.addEventListener('click', function(e)
 {
-	Titanium.Platform.openURL('CALSHOW://');
+	Titanium.Platform.openURL('CALSHOW://');//show calendar
 });
 
 // contact us button
