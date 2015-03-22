@@ -5,7 +5,7 @@ function showCalendars(calendars) {
         Ti.API.info(calendars[i].name);
     }
 }
-
+//found in acs documentation
 Ti.API.info('ALL CALENDARS:');
 showCalendars(Ti.Calendar.allCalendars);
 if (Ti.Platform.osname === 'android') {
@@ -36,4 +36,5 @@ var reminderDetails = {
 
 event.createReminder(reminderDetails);
 
+//opens window
 $.calendar.open();
